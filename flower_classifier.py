@@ -1,7 +1,6 @@
 import argparse
 import numpy as np
 import tensorflow as tf
-model_path="/Users/harinibennuri/Downloads/Blossom_Detector.ipynb"
 def load_model(model_path):
     return tf.keras.models.load_model(model_path)
 
